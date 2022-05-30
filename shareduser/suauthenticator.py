@@ -2,7 +2,7 @@ from jupyterhub.auth import Authenticator
 from traitlets import Unicode
 from argon2 import PasswordHasher
 
-class MILABAuthenticator(Authenticator):
+class SUAuthenticator(Authenticator):
     password_hash = Unicode(
         config=True,
         help="""

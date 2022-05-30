@@ -3,7 +3,7 @@ from pathlib import Path
 from jupyterhub.spawner import LocalProcessSpawner
 from traitlets import default, Unicode
 
-class MILABSpawner(LocalProcessSpawner):
+class SUSpawner(LocalProcessSpawner):
     jupyter_dir_template = Unicode(
         "{home}/.jupyterhub/user/{username}",
         config=True,
