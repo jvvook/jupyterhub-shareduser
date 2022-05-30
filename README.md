@@ -1,6 +1,6 @@
-# Simple authenticator/spawner for user-wide Jupyterhub installation
+# Simple authenticator/spawner for user-wide Jupyterhub
 
-This extension simply turns Jupyterhub into Jupyterlab with multiple configurations identified by arbitrarily chosen names. Other things such as directory and password are shared.
+This extension simply turns Jupyterhub into Jupyterlab with multiple configurations identified by arbitrarily chosen names. Other things such as base directory and password are still shared.
 
 ## Motivation
 
